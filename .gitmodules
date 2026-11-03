@@ -1,0 +1,9 @@
+[submodule "ai-server"]
+	path = ai-server
+	url = https://github.com/yoniyon03/smart-sort-ai.git
+[submodule "web-dashboard"]
+	path = web-dashboard
+	url = https://github.com/yoniyon03/smart-sort-web.git
+[submodule "arduino"]
+	path = arduino
+	url = https://github.com/yoniyon03/smart-sort-arduino.git
