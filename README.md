@@ -184,12 +184,27 @@
 
 ---
 
-## 📚 Documentation & Module Readmes
 
-- [AI 비전 모듈](https://github.com/yoniyon03/smart-sort-ai)
-- [웹 대시보드 및 서버 구조](https://github.com/yoniyon03/smart-sort-web)
-- [Arduino 제어 모듈](https://github.com/yoniyon03/smart-sort-arduino)
+## 📚 개발 문서 및 모듈별 README (Documentation & Modules)
 
-개발 문서: 주제제안서 → 요구명세서 → 설계명세서 → 중간 발표 → 최종보고서 및 최종 시연 영상.
+### 📄 개발 문서
+
+프로젝트의 기획부터 요구사항 분석, 시스템 설계, 최종 구현 및 검증까지의 개발 과정을 정리한 문서입니다.
+
+| 문서 | 주요 내용 |
+| --- | --- |
+| [주제제안서](docs/proposal.pdf) | 프로젝트 추진 배경, 문제 정의, 개발 목표 및 초기 시스템 구상 |
+| [요구명세서](docs/requirements.pdf) | 기능·비기능 요구사항, 유스케이스 및 시스템 제약조건 |
+| [설계명세서](docs/system-design.pdf) | 시스템 구조, 데이터베이스 설계, UI 설계 및 주요 기능별 동작 흐름 |
+| [최종 결과보고서](docs/final-report.pdf) | 최종 구현 내용, 시스템 통합 과정, 성능 평가 및 프로젝트 결과 |
+
+### 🔗 모듈별 저장소
+
+| 모듈 | 저장소 | 주요 역할 |
+| --- | --- | --- |
+| AI 비전 | [smart-sort-ai](https://github.com/yoniyon03/smart-sort-ai) | YOLOv8 기반 객체 탐지, PaddleOCR 및 OpenCV 색상 인식 |
+| 웹 대시보드·서버 | [smart-sort-web](https://github.com/yoniyon03/smart-sort-web) | 분류 기준 관리, 분류·오류 이력 조회 및 통계 대시보드 |
+| Arduino 제어 | [smart-sort-arduino](https://github.com/yoniyon03/smart-sort-arduino) | 센서 입력, 서보모터 제어 및 하드웨어 연동 |
+
 
 > **실행 환경:** 각 모듈의 의존성·환경변수·포트·시리얼 장치 경로는 연결된 모듈 저장소에서 관리합니다. 구체적인 실행 명령은 각 모듈의 소스 구성에 맞춰 확인해야 합니다.
